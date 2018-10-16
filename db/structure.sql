@@ -44,7 +44,6 @@ CREATE TABLE public.ar_internal_metadata (
 CREATE TABLE public.customers (
     id bigint NOT NULL,
     first_name character varying NOT NULL,
-    string character varying NOT NULL,
     last_name character varying NOT NULL,
     email character varying NOT NULL,
     username character varying NOT NULL,
